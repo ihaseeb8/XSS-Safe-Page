@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments Page</title>
+  </head>
+  <body>
+    <div class="root">
+        <div class="app">
+            <h1>Share Your Unheard Ideas Here</h1>
+
+            <form id="comment-form">
+                <div class="form-el">
+                    <input type="text" id="name" placeholder="Name" pattern="[^>,<,/,]+" title=" > , < , and / are not allowed" required>
+                </div>
+                <div class="form-el">
+                    <input type="text" id="comment" placeholder="Comment" pattern="[^>,<,/,]+" title=" > , < , and / are not allowed" required>
+                </div>
+                <div class="form-el">
+                    <button id="save-btn" type="submit">Enter Comment</button>
+                </div>
+              </form>
+
+            <h1>Ideas By Other Users</h1>
+
+            <ol id="ul-el" class="commentsPage">
+            </ol>
+
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

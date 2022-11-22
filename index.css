@@ -1,0 +1,58 @@
+.root {
+    text-align: center;
+    background: linear-gradient(180deg, #FFB7B7 0%, #727272 100%), radial-gradient(60.91% 100% at 50% 0%, #FFD1D1 0%, #260000 100%), linear-gradient(238.72deg, #FFDDDD 0%, #720066 100%), linear-gradient(127.43deg, #00FFFF 0%, #FF4444 100%), radial-gradient(100.22% 100% at 70.57% 0%, #FF0000 0%, #00FFE0 100%), linear-gradient(127.43deg, #B7D500 0%, #3300FF 100%);
+    background-blend-mode: screen, overlay, hard-light, color-burn, color-dodge, normal;
+    height: 100vh;
+}
+
+body {
+   
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+}
+
+#comment-form {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 3px;
+}
+
+.form-el{
+    padding: 4px;
+    margin: 4px;
+    width: 200px;
+}
+
+button {
+    width: 120px;
+}
+
+.commentsPage {
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    border: 2px dotted black;
+}
+
+.comment {
+
+    width: 90%;
+    margin: auto;
+    padding: 6px;
+    margin-bottom: 4px;
+    border-bottom: 2px dotted black;
+}
